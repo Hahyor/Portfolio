@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+
+.topnav {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 2.5rem; 
+}
+
+.topnav a {
+   text-decoration: none;
+   color: black;  
+}
+
+.topnav a:hover {
+    color: palevioletred;
+}
+
+ .hero-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+} 
+
+
+ .ayo {
+  text-align: center;
+  border: 5px solid;
+  border: none;
+  
+   
+}
+
+.ayo h4 {
+  bottom: 70px;
+  padding-top: 30px;
+  color: palevioletred;
+}
+
+ .ayo h1 {
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;
+}
+
+
+.ayo button {
+    background-color: brown;
+    width: 100px;
+    border-radius: 20%;
+    color: #ffffff;
+    margin-top: 10px;
+}     
+
+.about-section {
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.about-section h1 {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
