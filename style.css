@@ -6,6 +6,7 @@
 
 body {
     overflow-y: scroll;
+    background-color: pink;
 }
 
 
@@ -77,4 +78,13 @@ padding-right: 15px;
     font-weight: bold;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    width: auto;
+    height: 70px;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
